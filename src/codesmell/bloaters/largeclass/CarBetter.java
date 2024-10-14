@@ -21,6 +21,11 @@ public class CarBetter {
         this.suspension = new Suspension();
     }
 
+
+    public void start() {
+        this.engine.start();
+    }
+
     public void paint(String newColor) {
         color = newColor;
         System.out.println("The car has been painted {newColor}.");
@@ -37,6 +42,9 @@ public class CarBetter {
 
     private class Engine {
         public void tuneUp() {
+        }
+
+        public void start() {
         }
     }
 
