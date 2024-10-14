@@ -1,4 +1,4 @@
-package codesmell.bloaters.largeclass;
+package de.kodschul.cleancode.codesmell.bloaters.largeclass;
 
 public class CarBad {
     private String make;

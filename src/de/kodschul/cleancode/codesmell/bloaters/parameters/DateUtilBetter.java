@@ -1,4 +1,4 @@
-package codesmell.bloaters.parameters;
+package de.kodschul.cleancode.codesmell.bloaters.parameters;
 
 
 class DateUtilBetter {

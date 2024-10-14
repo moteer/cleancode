@@ -1,4 +1,4 @@
-package codesmell.commnts;
+package de.kodschul.cleancode.codesmell.commnts;
 
 
 public class CommentedCode {

@@ -1,4 +1,4 @@
-package codesmell.objectorintedabusers;
+package de.kodschul.cleancode.codesmell.objectorintedabusers;
 
 abstract class AnimalGood {
     abstract String makeSound();
