@@ -1,4 +1,4 @@
-package de.kodschul.cleancode.cohesion;
+package de.kodschul.cleancode.cohesion.bad;
 
 public class User {
     private String email;

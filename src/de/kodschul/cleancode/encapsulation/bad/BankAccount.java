@@ -1,4 +1,4 @@
-package de.kodschul.cleancode.encapsulation;
+package de.kodschul.cleancode.encapsulation.bad;
 
 /**
  * Enhance encapsulation of this class

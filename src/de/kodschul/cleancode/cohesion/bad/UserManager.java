@@ -1,12 +1,13 @@
-package de.kodschul.cleancode.cohesion;
+package de.kodschul.cleancode.cohesion.bad;
 
 import java.util.List;
 
 /***
- * Erhöhe die Kohösion dieser Klasse
+ * Enhance cohesion of this class
  */
 class UserManager {
     private List<User> users;
+    public Report report;
 
     UserManager(List<User> users) {
         this.users = users;
@@ -18,7 +19,9 @@ class UserManager {
 
     public void generateReport() {
         // This method handles report generation, unrelated to user management
-        System.out.println("Generating user report...");
+        report = new Report(users);
+        report.setDescription("This report shows you ...");
+        System.out.println(report.toString());
         // Logic to generate the report
     }
 
